@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "eco:block/mangrove_slab" },
+        "type=top": { "model": "eco:block/mangrove_slab_top" },
+        "type=double": { "model": "eco:block/mangrove_planks" }
+    }
+}

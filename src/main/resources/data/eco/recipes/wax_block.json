@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "eco:wax"
+    }
+  },
+  "result": {
+    "item": "eco:wax_block"
+  }
+}

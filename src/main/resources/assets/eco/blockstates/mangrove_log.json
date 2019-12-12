@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":    { "model": "eco:block/mangrove_log" },
+        "axis=z":     { "model": "eco:block/mangrove_log", "x": 90 },
+        "axis=x":     { "model": "eco:block/mangrove_log", "x": 90, "y": 90 }
+    }
+}

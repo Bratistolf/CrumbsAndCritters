@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "eco:block/marble",
+        "top": "eco:block/marble",
+        "side": "eco:block/marble"
+    }
+}

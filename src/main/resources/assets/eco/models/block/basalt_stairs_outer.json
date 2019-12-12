@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "eco:block/basalt",
+        "top": "eco:block/basalt",
+        "side": "eco:block/basalt"
+    }
+}

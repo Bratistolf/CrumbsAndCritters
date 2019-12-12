@@ -1,0 +1,6 @@
+{
+    "parent": "eco:block/leaves",
+    "textures": {
+        "all": "eco:block/mangrove_leaves"
+    }
+}

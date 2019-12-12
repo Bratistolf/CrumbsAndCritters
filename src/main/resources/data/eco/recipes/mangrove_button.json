@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_buttons",
+  "ingredients": [
+    {
+      "item": "eco:mangrove_planks"
+    }
+  ],
+  "result": {
+    "item": "eco:mangrove_button",
+    "count": 1
+  }
+}

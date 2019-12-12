@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eco:mud_brick_wall",
+    "eco:basalt_wall",
+    "eco:limestone_wall",
+    "eco:marble_wall"
+  ]
+}

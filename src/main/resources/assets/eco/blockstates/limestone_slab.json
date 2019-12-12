@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "eco:block/limestone_slab" },
+        "type=top": { "model": "eco:block/limestone_slab_top" },
+        "type=double": { "model": "eco:block/limestone" }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eco:mud_block"
+    }
+  ],
+  "result": {
+    "item": "eco:mud_glob",
+    "count": 4
+  }
+}

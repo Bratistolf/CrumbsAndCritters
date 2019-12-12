@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "eco:block/polished_basalt",
+        "top": "eco:block/polished_basalt",
+        "side": "eco:block/polished_basalt"
+    }
+}

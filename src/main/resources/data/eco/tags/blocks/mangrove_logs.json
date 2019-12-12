@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eco:mangrove_log",
+    "eco:mangrove_wood",
+    "eco:stripped_mangrove_log",
+    "eco:stripped_mangrove_wood"
+  ]
+}

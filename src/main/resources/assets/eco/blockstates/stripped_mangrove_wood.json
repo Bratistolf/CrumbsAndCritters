@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "eco:block/stripped_mangrove_wood" },
+        "axis=z": { "model": "eco:block/stripped_mangrove_wood", "x": 90 },
+        "axis=x": { "model": "eco:block/stripped_mangrove_wood", "x": 90, "y": 90 }
+    }
+}

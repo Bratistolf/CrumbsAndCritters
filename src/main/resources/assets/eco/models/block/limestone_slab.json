@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "eco:block/limestone",
+        "top": "eco:block/limestone",
+        "side": "eco:block/limestone"
+    }
+}

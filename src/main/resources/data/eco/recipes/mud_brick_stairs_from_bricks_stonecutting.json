@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "eco:mud_bricks"
+  },
+  "result": "eco:mud_brick_stairs",
+  "count": 1
+}
