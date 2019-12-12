@@ -1,10 +1,26 @@
 {
+	"death.attack.dead_bush": "%1$s was pricked in a bush",
+    "death.attack.dead_bush.player": "%1$s was pricked in a bush whilst fighting %2$s",
+
 	"item.eco.frog_leg": "Frog Leg",
 	"item.eco.cooked_frog_leg": "Cooked Frog Leg",
 	"item.eco.mud_glob": "Mud Glob",
+	
+	"item.eco.berry_pie": "Berry Pie",
 	"item.eco.prickly_pear": "Prickly Pear",
-	"death.attack.dead_bush": "%1$s was pricked in a bush",
-    "death.attack.dead_bush.player": "%1$s was pricked in a bush whilst fighting %2$s",
+	"item.eco.tomato": "Onion",
+	"item.eco.tomato": "Cheese",
+	"item.eco.tomato": "Grapes",
+	"item.eco.tomato": "Corn",
+	"item.eco.tomato": "Lettuce",
+	"item.eco.tomato": "Salt",
+	"item.eco.coffee_bean": "Coffee Bean",
+	"item.eco.tomato": "Red Pepper",
+	"item.eco.tomato": "Yellow Pepper",
+	"item.eco.tomato": "Green Pepper",
+	"item.eco.tomato": "Tomato",
+	"item.eco.tomato": "Cucumber",
+	"item.eco.tomato": "Eggplant",
 	
 	"block.eco.mangrove_log": "Mangrove Log",
 	"block.eco.mangrove_wood": "Mangrove Wood",
@@ -22,13 +38,12 @@
 	"block.eco.mangrove_door": "Mangrove Door",
 	"block.eco.mangrove_trapdoor": "Mangrove Trapdoor",
 	
-	"block.eco.dead_bush": "Dead Bush",
-	"block.eco.wax_block": "Wax Block",
 	"block.eco.mud_block": "Mud Block",
 	"block.eco.mud_bricks": "Mud Bricks",
 	"block.eco.mud_brick_slab": "Mud Brick Slab",
 	"block.eco.mud_brick_stairs": "Mud Brick Stairs",
 	"block.eco.mud_brick_wall": "Mud Brick Wall",
 	
+	"block.eco.dead_bush": "Dead Bush",
 	"block.eco.cattails": "Cattails"
 }
