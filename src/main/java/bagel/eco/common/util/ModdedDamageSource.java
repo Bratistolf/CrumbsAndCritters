@@ -1,4 +1,4 @@
-package bagel.eco.common.block;
+package bagel.eco.common.util;
 
 import net.minecraft.util.DamageSource;
 

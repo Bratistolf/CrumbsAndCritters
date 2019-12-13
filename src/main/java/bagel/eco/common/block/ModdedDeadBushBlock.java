@@ -1,6 +1,6 @@
 package bagel.eco.common.block;
 
-import bagel.eco.common.block.ModdedDamageSource;
+import bagel.eco.common.util.ModdedDamageSource;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.DeadBushBlock;
 import net.minecraft.entity.Entity;

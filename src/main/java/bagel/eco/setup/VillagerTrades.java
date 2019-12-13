@@ -20,14 +20,10 @@ public class VillagerTrades {
     
 	@SubscribeEvent
 	public static void onWandererTradesEvent(WandererTradesEvent event) {
-		//Common
 		event.getGenericTrades().add(new EntityUtil.ItemsForEmeraldsTrade(ModItems.coffee_bean, 1, 5, 8, 1));
 		event.getGenericTrades().add(new EntityUtil.ItemsForEmeraldsTrade(ModItems.eggplant, 1, 3, 8, 1));
 		event.getGenericTrades().add(new EntityUtil.ItemsForEmeraldsTrade(ModItems.red_pepper, 1, 2, 8, 1));
 		event.getGenericTrades().add(new EntityUtil.ItemsForEmeraldsTrade(ModItems.yellow_pepper, 1, 2, 8, 1));
 		event.getGenericTrades().add(new EntityUtil.ItemsForEmeraldsTrade(ModItems.green_pepper, 1, 3, 8, 1));
-
-
 	}
-
 }
