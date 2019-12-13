@@ -54,8 +54,8 @@ public class ModItems
     	grapes = registerItem(new Item(new Item.Properties().food(ModFoods.grapes).group(ItemGroup.FOOD)), "grapes");
     	corn = registerItem(new Item(new Item.Properties().food(ModFoods.corn).group(ItemGroup.FOOD)), "corn");
     	lettuce = registerItem(new Item(new Item.Properties().food(ModFoods.lettuce).group(ItemGroup.FOOD)), "lettuce");
-    	salt = registerItem(new Item(new Item.Properties().food(ModFoods.salt).group(ItemGroup.FOOD)), "salt");
-    	coffee_bean = registerItem(new Item(new Item.Properties().food(ModFoods.coffee_bean).group(ItemGroup.FOOD)), "coffee_bean");
+    	salt = registerItem(new Item(new Item.Properties().group(ItemGroup.FOOD)), "salt");
+    	coffee_bean = registerItem(new Item(new Item.Properties().group(ItemGroup.FOOD)), "coffee_bean");
     	red_pepper = registerItem(new Item(new Item.Properties().food(ModFoods.red_pepper).group(ItemGroup.FOOD)), "red_pepper");
     	yellow_pepper = registerItem(new Item(new Item.Properties().food(ModFoods.green_pepper).group(ItemGroup.FOOD)), "yellow_pepper");
     	green_pepper = registerItem(new Item(new Item.Properties().food(ModFoods.yellow_pepper).group(ItemGroup.FOOD)), "green_pepper");

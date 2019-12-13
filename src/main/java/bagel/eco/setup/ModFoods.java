@@ -43,8 +43,8 @@ public class ModFoods {
 		grapes = (new Food.Builder()).hunger(4).saturation(0.6F).build();
 		corn = (new Food.Builder()).hunger(4).saturation(0.6F).build();
 		lettuce = (new Food.Builder()).hunger(4).saturation(0.6F).build();
-		salt = (new Food.Builder()).hunger(4).saturation(0.6F).build();
-		coffee_bean = (new Food.Builder()).hunger(4).saturation(0.6F).build();
+		//salt = (new Food.Builder()).hunger(4).saturation(0.6F).build();
+		//coffee_bean = (new Food.Builder()).hunger(4).saturation(0.6F).build();
 		red_pepper = (new Food.Builder()).hunger(4).saturation(0.6F).build();
 		yellow_pepper = (new Food.Builder()).hunger(4).saturation(0.6F).build();
 		green_pepper = (new Food.Builder()).hunger(4).saturation(0.6F).build();
