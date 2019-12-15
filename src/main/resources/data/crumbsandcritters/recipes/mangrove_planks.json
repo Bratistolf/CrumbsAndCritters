@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "crumbsandcritters:mangrove_logs"
+    }
+  ],
+  "result": {
+    "item": "crumbsandcritters:mangrove_planks",
+    "count": 4
+  }
+}

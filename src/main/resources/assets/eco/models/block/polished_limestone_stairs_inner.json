@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "eco:block/polished_limestone",
-        "top": "eco:block/polished_limestone",
-        "side": "eco:block/polished_limestone"
-    }
-}

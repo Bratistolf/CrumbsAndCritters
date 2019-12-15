@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=south": { "model": "eco:block/diamond_trophy" },
-        "facing=west": { "model": "eco:block/diamond_trophy", "y": 90 },
-        "facing=north": { "model": "eco:block/diamond_trophy", "y": 180 },
-        "facing=east": { "model": "eco:block/diamond_trophy", "y": 270 }
-    }
-}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "crumbsandcritters:block/sawmill" },
+        "facing=south": { "model": "crumbsandcritters:block/sawmill", "y": 180 },
+        "facing=west": { "model": "crumbsandcritters:block/sawmill", "y": 270 },
+        "facing=east": { "model": "crumbsandcritters:block/sawmill", "y": 90 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "crumbsandcritters:mud_bricks"
+  },
+  "result": "crumbsandcritters:mud_brick_slab",
+  "count": 2
+}

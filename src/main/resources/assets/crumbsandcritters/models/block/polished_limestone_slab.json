@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "crumbsandcritters:block/polished_limestone",
+        "top": "crumbsandcritters:block/polished_limestone",
+        "side": "crumbsandcritters:block/polished_limestone"
+    }
+}

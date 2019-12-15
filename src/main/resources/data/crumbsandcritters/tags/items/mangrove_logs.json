@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "crumbsandcritters:mangrove_log",
+    "crumbsandcritters:mangrove_wood",
+    "crumbsandcritters:stripped_mangrove_log",
+    "crumbsandcritters:stripped_mangrove_wood"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "crumbsandcritters:block/mud_bricks",
+        "top": "crumbsandcritters:block/mud_bricks",
+        "side": "crumbsandcritters:block/mud_bricks"
+    }
+}

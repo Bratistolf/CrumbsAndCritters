@@ -1,0 +1,6 @@
+{
+    "parent": "crumbsandcritters:block/leaves",
+    "textures": {
+        "all": "crumbsandcritters:block/mangrove_leaves"
+    }
+}

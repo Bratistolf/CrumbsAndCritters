@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbsandcritters:mud_block"
+    }
+  ],
+  "result": {
+    "item": "crumbsandcritters:mud_glob",
+    "count": 4
+  }
+}

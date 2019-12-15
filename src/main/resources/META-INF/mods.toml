@@ -4,14 +4,14 @@ credits="Thanks for this example mod goes to Java" #optional
 authors="bageldotjpg" #optional
 
 [[mods]] #mandatory
-modId="eco" #mandatory
+modId="crumbsandcritters" #mandatory
 version="0.1.1" #mandatory
-displayName="Eco" #mandatory
+displayName="crumbsandcritters" #mandatory
 description='''
 Learning how to mod.
 '''
 
-[[dependencies.eco]] #optional
+[[dependencies.crumbsandcritters]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -22,7 +22,7 @@ Learning how to mod.
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-[[dependencies.eco]]
+[[dependencies.crumbsandcritters]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.14.4]"

@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "powered=false": { "model": "eco:block/mangrove_pressure_plate" },
-        "powered=true": { "model": "eco:block/mangrove_pressure_plate_down" }
-    }
-}

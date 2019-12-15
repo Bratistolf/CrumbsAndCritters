@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "eco:block/sawmill" },
-        "facing=south": { "model": "eco:block/sawmill", "y": 180 },
-        "facing=west": { "model": "eco:block/sawmill", "y": 270 },
-        "facing=east": { "model": "eco:block/sawmill", "y": 90 }
-    }
-}

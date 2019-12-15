@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "half=lower": { "model": "eco:block/cattails_bottom" },
-        "half=upper":    { "model": "eco:block/cattails_top" }
-    }
-}

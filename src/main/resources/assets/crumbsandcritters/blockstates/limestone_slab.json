@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "crumbsandcritters:block/limestone_slab" },
+        "type=top": { "model": "crumbsandcritters:block/limestone_slab_top" },
+        "type=double": { "model": "crumbsandcritters:block/limestone" }
+    }
+}

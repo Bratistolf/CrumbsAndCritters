@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs",
-    "textures": {
-        "bottom": "eco:block/mangrove_planks",
-        "top": "eco:block/mangrove_planks",
-        "side": "eco:block/mangrove_planks"
-    }
-}

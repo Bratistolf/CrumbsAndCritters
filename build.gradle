@@ -15,8 +15,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.0'
-group = 'com.bagel.eco' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'eco'
+group = 'com.bagel.crumbsandcritters' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'crumbsandcritters'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 

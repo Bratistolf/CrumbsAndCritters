@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crumbsandcritters:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "crumbsandcritters:ruby",
+    "count": 9
+  }
+}

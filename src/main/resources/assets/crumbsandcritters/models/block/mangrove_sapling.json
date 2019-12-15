@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "crumbsandcritters:block/mangrove_sapling" 
+    }
+}

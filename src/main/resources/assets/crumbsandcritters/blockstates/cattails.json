@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "crumbsandcritters:block/cattails_bottom" },
+        "half=upper":    { "model": "crumbsandcritters:block/cattails_top" }
+    }
+}

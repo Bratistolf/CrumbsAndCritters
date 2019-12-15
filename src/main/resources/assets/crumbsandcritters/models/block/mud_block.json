@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "crumbsandcritters:block/mud_block"
+    }
+}
