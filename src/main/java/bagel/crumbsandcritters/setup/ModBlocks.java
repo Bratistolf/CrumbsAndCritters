@@ -92,21 +92,21 @@ public class ModBlocks
         mud_brick_slab = registerBlock(new SlabBlock(Block.Properties.from(mud_bricks)), "mud_brick_slab", ItemGroup.BUILDING_BLOCKS);
         mud_brick_wall = registerBlock(new WallBlock(Block.Properties.from(mud_bricks)),"mud_brick_wall", ItemGroup.BUILDING_BLOCKS);
         
-        basalt = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.BLACK).hardnessAndResistance(1.5F, 6.0F)), "basalt", ItemGroup.BUILDING_BLOCKS);
-        basalt_stairs = registerBlock(new StairsBlock(() -> basalt.getDefaultState(), Block.Properties.from(basalt)), "basalt_stairs", ItemGroup.BUILDING_BLOCKS);
-        basalt_slab = registerBlock(new SlabBlock(Block.Properties.from(basalt)), "basalt_slab", ItemGroup.BUILDING_BLOCKS);
-        basalt_wall = registerBlock(new WallBlock(Block.Properties.from(basalt)),"basalt_wall", ItemGroup.BUILDING_BLOCKS);
-        polished_basalt = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.BLACK).hardnessAndResistance(1.5F, 6.0F)), "polished_basalt", ItemGroup.BUILDING_BLOCKS);
-        polished_basalt_stairs = registerBlock(new StairsBlock(() -> polished_basalt.getDefaultState(), Block.Properties.from(polished_basalt)), "polished_basalt_stairs", ItemGroup.BUILDING_BLOCKS);
-        polished_basalt_slab = registerBlock(new SlabBlock(Block.Properties.from(polished_basalt)), "polished_basalt_slab", ItemGroup.BUILDING_BLOCKS);
+        //basalt = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.BLACK).hardnessAndResistance(1.5F, 6.0F)), "basalt", ItemGroup.BUILDING_BLOCKS);
+        //basalt_stairs = registerBlock(new StairsBlock(() -> basalt.getDefaultState(), Block.Properties.from(basalt)), "basalt_stairs", ItemGroup.BUILDING_BLOCKS);
+        //basalt_slab = registerBlock(new SlabBlock(Block.Properties.from(basalt)), "basalt_slab", ItemGroup.BUILDING_BLOCKS);
+        //basalt_wall = registerBlock(new WallBlock(Block.Properties.from(basalt)),"basalt_wall", ItemGroup.BUILDING_BLOCKS);
+        //polished_basalt = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.BLACK).hardnessAndResistance(1.5F, 6.0F)), "polished_basalt", ItemGroup.BUILDING_BLOCKS);
+        //polished_basalt_stairs = registerBlock(new StairsBlock(() -> polished_basalt.getDefaultState(), Block.Properties.from(polished_basalt)), "polished_basalt_stairs", ItemGroup.BUILDING_BLOCKS);
+        //polished_basalt_slab = registerBlock(new SlabBlock(Block.Properties.from(polished_basalt)), "polished_basalt_slab", ItemGroup.BUILDING_BLOCKS);
         
-        limestone = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(1.5F, 6.0F)), "limestone", ItemGroup.BUILDING_BLOCKS);
-        limestone_stairs = registerBlock(new StairsBlock(() -> limestone.getDefaultState(), Block.Properties.from(limestone)), "limestone_stairs", ItemGroup.BUILDING_BLOCKS);
-        limestone_slab = registerBlock(new SlabBlock(Block.Properties.from(limestone)), "limestone_slab", ItemGroup.BUILDING_BLOCKS);
-        limestone_wall = registerBlock(new WallBlock(Block.Properties.from(limestone)),"limestone_wall", ItemGroup.BUILDING_BLOCKS);
-        polished_limestone = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(1.5F, 6.0F)), "polished_limestone", ItemGroup.BUILDING_BLOCKS);
-        polished_limestone_stairs = registerBlock(new StairsBlock(() -> polished_limestone.getDefaultState(), Block.Properties.from(polished_limestone)), "polished_limestone_stairs", ItemGroup.BUILDING_BLOCKS);
-        polished_limestone_slab = registerBlock(new SlabBlock(Block.Properties.from(polished_limestone)), "polished_limestone_slab", ItemGroup.BUILDING_BLOCKS);
+        //limestone = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(1.5F, 6.0F)), "limestone", ItemGroup.BUILDING_BLOCKS);
+        //limestone_stairs = registerBlock(new StairsBlock(() -> limestone.getDefaultState(), Block.Properties.from(limestone)), "limestone_stairs", ItemGroup.BUILDING_BLOCKS);
+        //limestone_slab = registerBlock(new SlabBlock(Block.Properties.from(limestone)), "limestone_slab", ItemGroup.BUILDING_BLOCKS);
+        //limestone_wall = registerBlock(new WallBlock(Block.Properties.from(limestone)),"limestone_wall", ItemGroup.BUILDING_BLOCKS);
+        //polished_limestone = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(1.5F, 6.0F)), "polished_limestone", ItemGroup.BUILDING_BLOCKS);
+        //polished_limestone_stairs = registerBlock(new StairsBlock(() -> polished_limestone.getDefaultState(), Block.Properties.from(polished_limestone)), "polished_limestone_stairs", ItemGroup.BUILDING_BLOCKS);
+        //polished_limestone_slab = registerBlock(new SlabBlock(Block.Properties.from(polished_limestone)), "polished_limestone_slab", ItemGroup.BUILDING_BLOCKS);
         
         //marble = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.SNOW).hardnessAndResistance(1.5F, 6.0F)), "marble", ItemGroup.BUILDING_BLOCKS);
         //marble_stairs = registerBlock(new StairsBlock(() -> marble.getDefaultState(), Block.Properties.from(marble)), "marble_stairs", ItemGroup.BUILDING_BLOCKS);
