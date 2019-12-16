@@ -62,13 +62,13 @@ public class ModItems
     	tomato = registerItem(new Item(new Item.Properties().food(ModFoods.tomato).group(ItemGroup.FOOD)), "tomato");
     	cucumber = registerItem(new Item(new Item.Properties().food(ModFoods.cucumber).group(ItemGroup.FOOD)), "cucumber");
     	eggplant = registerItem(new Item(new Item.Properties().food(ModFoods.eggplant).group(ItemGroup.FOOD)), "eggplant");
-    	//coconut = registerItem(new Item(new Item.Properties().food(ModFoods.coconut).group(ItemGroup.FOOD)), "coconut");
-    	//banana = registerItem(new Item(new Item.Properties().food(ModFoods.banana).group(ItemGroup.FOOD)), "banana");
+    	coconut = registerItem(new Item(new Item.Properties().food(ModFoods.coconut).group(ItemGroup.FOOD)), "coconut");
+    	banana = registerItem(new Item(new Item.Properties().food(ModFoods.banana).group(ItemGroup.FOOD)), "banana");
     	//strawberry = registerItem(new Item(new Item.Properties().food(ModFoods.strawberry).group(ItemGroup.FOOD)), "strawberry");
-    	//blueberries = registerItem(new Item(new Item.Properties().food(ModFoods.blueberries).group(ItemGroup.FOOD)), "blueberries");
+    	blueberries = registerItem(new Item(new Item.Properties().food(ModFoods.blueberries).group(ItemGroup.FOOD)), "blueberries");
     	//pear = registerItem(new Item(new Item.Properties().food(ModFoods.pear).group(ItemGroup.FOOD)), "pear");
     	//pineapple = registerItem(new Item(new Item.Properties().food(ModFoods.pineapple).group(ItemGroup.FOOD)), "pineapple");
-    	//orange = registerItem(new Item(new Item.Properties().food(ModFoods.orange).group(ItemGroup.FOOD)), "orange");
+    	orange = registerItem(new Item(new Item.Properties().food(ModFoods.orange).group(ItemGroup.FOOD)), "orange");
 	}
 
     public static Item registerItem(Item item, String name)
