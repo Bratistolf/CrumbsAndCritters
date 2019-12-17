@@ -66,7 +66,7 @@ public class MudBlock extends Block {
 	   }
 	   
 	   public void onFallenUpon(World worldIn, BlockPos pos, Entity entityIn, float fallDistance) {
-		         entityIn.fall(fallDistance, 0.0F);
+		   worldIn.setEntityState(entityIn, (byte)54);
 	   }
 
 

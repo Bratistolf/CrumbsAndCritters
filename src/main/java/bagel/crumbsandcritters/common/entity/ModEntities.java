@@ -1,4 +1,4 @@
-package bagel.crumbsandcritters.common.entity;
+/*package bagel.crumbsandcritters.common.entity;
 
 import bagel.crumbsandcritters.setup.CrumbsAndCritters;
 import net.minecraft.entity.EntityClassification;
@@ -39,6 +39,7 @@ public class ModEntities {
     }
 }
 
+*/
 /*
 
 package bagel.crumbsandcritters.common.entity;

@@ -1,4 +1,4 @@
-package bagel.crumbsandcritters.common.entity;
+/*package bagel.crumbsandcritters.common.entity;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -22,7 +22,8 @@ public class FrogRenderer extends MobRenderer<FrogEntity, FrogModel> {
 
 	@Nullable
 	@Override
-	protected ResourceLocation getEntityTexture(@Nonnull FrogEntity entity) {
+	public ResourceLocation getEntityTexture(@Nonnull FrogEntity entity) {
 		return resourceLocation;
 	}
 }
+*/

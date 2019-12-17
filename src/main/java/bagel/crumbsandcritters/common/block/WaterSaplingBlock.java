@@ -26,6 +26,7 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
 
 @SuppressWarnings("deprecation")
 public class WaterSaplingBlock extends BushBlock implements IGrowable, ILiquidContainer, net.minecraftforge.common.IShearable {
@@ -33,9 +34,9 @@ public class WaterSaplingBlock extends BushBlock implements IGrowable, ILiquidCo
 	   protected static final VoxelShape SHAPE = Block.makeCuboidShape(2.0D, 0.0D, 2.0D, 14.0D, 12.0D, 14.0D);
 	   private final Tree tree;
 
-   public WaterSaplingBlock(Tree p_i48337_1_, Block.Properties properties) {
+   public WaterSaplingBlock(Tree treeIn, Block.Properties properties) {
 	      super(properties);
-	      this.tree = p_i48337_1_;
+	      this.tree = treeIn;
 	      this.setDefaultState(this.stateContainer.getBaseState().with(STAGE, Integer.valueOf(0)));
 	   }
 
@@ -83,20 +84,14 @@ public class WaterSaplingBlock extends BushBlock implements IGrowable, ILiquidCo
       return Fluids.WATER.getStillFluidState(false);
    }
 
-   public void grow(IWorld worldIn, BlockPos pos, BlockState state, Random rand) {
-	      if (state.get(STAGE) == 0) {
-	         worldIn.setBlockState(pos, state.cycle(STAGE), 4);
-	      } else {
-	         if (!net.minecraftforge.event.ForgeEventFactory.saplingGrowTree(worldIn, rand, pos)) return;
-	         this.tree.spawn(worldIn, pos, state, rand);
-	      }
-
+   public void func_226942_a_(ServerWorld worldIn, BlockPos p_226942_2_, BlockState p_226942_3_, Random p_226942_4_) {
+	   if (p_226942_3_.get(STAGE) == 0) {
+		   worldIn.setBlockState(p_226942_2_, p_226942_3_.cycle(STAGE), 4);
+		   } else {
+			   if (!net.minecraftforge.event.ForgeEventFactory.saplingGrowTree(worldIn, p_226942_4_, p_226942_2_)) return;
+			   this.tree.func_225545_a_(worldIn, worldIn.getChunkProvider().getChunkGenerator(), p_226942_2_, p_226942_3_, p_226942_4_);
+			   }
 	   }
-   
-   public void grow(World worldIn, Random rand, BlockPos pos, BlockState state) {
-	  this.grow(worldIn, pos, state, rand);
-      }
-
 
    public boolean canContainFluid(IBlockReader worldIn, BlockPos pos, BlockState state, Fluid fluidIn) {
       return false;
@@ -110,4 +105,11 @@ public class WaterSaplingBlock extends BushBlock implements IGrowable, ILiquidCo
 	   protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 	      builder.add(STAGE);
 	   }
+
+	@Override
+	public void func_225535_a_(ServerWorld p_225535_1_, Random p_225535_2_, BlockPos p_225535_3_,
+			BlockState p_225535_4_) {
+		// TODO Auto-generated method stub
+		
+	}
 }
