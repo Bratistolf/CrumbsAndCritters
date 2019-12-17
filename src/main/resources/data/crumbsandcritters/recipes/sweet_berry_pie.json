@@ -17,5 +17,7 @@
             "item": "minecraft:sugar"
         }
     ],
-    "result": {}
+    "result": {
+    "item": "crumbsandcritters:sweet_berry_pie"
+  }
 }
