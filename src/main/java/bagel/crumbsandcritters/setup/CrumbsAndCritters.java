@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.google.common.collect.Maps;
 
+import bagel.crumbsandcritters.common.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.item.AxeItem;
 import net.minecraftforge.common.MinecraftForge;import net.minecraftforge.fml.common.Mod;
@@ -16,7 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class CrumbsAndCritters 
 {
 	public static CrumbsAndCritters instance;
-	public static final String modid = "eco";
+	public static final String modid = "crumbsandcritters";
 	public static final Logger logger = LogManager.getLogger(modid);
 
 	public CrumbsAndCritters() 

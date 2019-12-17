@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "crumbsandcritters:frog_leg"
+  },
+  "result": "crumbsandcritters:cooked_frog_leg",
+  "experience": 0.35,
+  "cookingtime": 100
+}

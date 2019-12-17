@@ -1,8 +1,10 @@
-package bagel.crumbsandcritters.setup;
+package bagel.crumbsandcritters.common.entity;
 
 import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import bagel.crumbsandcritters.setup.CrumbsAndCritters;
+import bagel.crumbsandcritters.setup.ModItems;
 import net.minecraft.entity.merchant.villager.VillagerProfession;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 

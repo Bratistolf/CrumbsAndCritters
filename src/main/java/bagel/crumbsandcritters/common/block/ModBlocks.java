@@ -1,8 +1,5 @@
-package bagel.crumbsandcritters.setup;
+package bagel.crumbsandcritters.common.block;
 
-import bagel.crumbsandcritters.common.block.ModdedDeadBushBlock;
-import bagel.crumbsandcritters.common.block.MudBlock;
-import bagel.crumbsandcritters.common.block.WaterSaplingBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.DoublePlantBlock;
@@ -82,7 +79,8 @@ public class ModBlocks
 	public static Block cattails;
 	public static Block duckweed;
 
-    @SubscribeEvent
+    @SuppressWarnings("deprecation")
+	@SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event)
     {
     	
@@ -123,7 +121,7 @@ public class ModBlocks
         stripped_mangrove_log = registerBlock(new LogBlock(MaterialColor.LIME_TERRACOTTA, Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F).sound(SoundType.WOOD)), "stripped_mangrove_log", ItemGroup.BUILDING_BLOCKS);
         stripped_mangrove_wood = registerBlock(new RotatedPillarBlock(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F).sound(SoundType.WOOD)), "stripped_mangrove_wood", ItemGroup.BUILDING_BLOCKS);
         mangrove_planks = registerBlock(new Block(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "mangrove_planks", ItemGroup.BUILDING_BLOCKS);
-        mangrove_stairs = registerBlock(new StairsBlock(() -> mangrove_planks.getDefaultState(), Block.Properties.from(mangrove_planks)), "mangrove_stairs", ItemGroup.BUILDING_BLOCKS);
+        mangrove_stairs = registerBlock(new StairsBlock(mangrove_planks.getDefaultState(), Block.Properties.from(mangrove_planks)), "mangrove_stairs", ItemGroup.BUILDING_BLOCKS);
         mangrove_slab = registerBlock(new SlabBlock(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "mangrove_slab", ItemGroup.BUILDING_BLOCKS);
         mangrove_fence = registerBlock(new FenceBlock(Block.Properties.create(Material.WOOD, mangrove_planks.materialColor).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "mangrove_fence", ItemGroup.DECORATIONS);
         mangrove_fence_gate = registerBlock(new FenceGateBlock(Block.Properties.create(Material.WOOD, mangrove_planks.materialColor).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "mangrove_fence_gate", ItemGroup.REDSTONE);

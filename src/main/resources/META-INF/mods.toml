@@ -5,7 +5,7 @@ authors="bageldotjpg" #optional
 
 [[mods]] #mandatory
 modId="crumbsandcritters" #mandatory
-version="0.0.1" #mandatory
+version="0.0.2" #mandatory
 displayName="crumbsandcritters" #mandatory
 description='''
 Learning how to mod.

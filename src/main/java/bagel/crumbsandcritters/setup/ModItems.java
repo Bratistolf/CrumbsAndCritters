@@ -39,7 +39,6 @@ public class ModItems
 	public static Item mud_glob;
 	
 	public static Item mangrove_boat;
-
 	
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event)

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "crumbsandcritters:frog_leg"
+  },
+  "result": "crumbsandcritters:cooked_frog_leg",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,4 +1,4 @@
-package bagel.crumbsandcritters.setup;
+package bagel.crumbsandcritters.common.entity;
 
 import java.util.Random;
 
